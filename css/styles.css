@@ -1,0 +1,81 @@
+body {
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+}
+
+.hero-logo {
+    margin: 30px;
+    max-width: 100px;
+}
+
+.hero-img {
+    max-width: 100%;
+    display: block;
+}
+
+.hero {
+    margin-bottom: 65px;
+}
+
+.content h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 5px;
+    color: hsl(0, 6%, 24%);
+}
+
+.content h1 .intro {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+.content h1 span {
+    display: block;
+}
+
+.content {
+    padding: 0 30px;
+    margin-bottom: 90px;
+}
+
+.content .description {
+    margin: 0 0 52px;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(0, 36%, 70%);
+    font-size: 14px;
+}
+
+/* email input */
+
+.email-input-wrapper {
+    position: relative;
+}
+
+.email-input-wrapper input {
+    height: 48px;
+    line-height: 48px;
+    width: calc(100% - 50px);
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 40px;
+    padding: 0 25px;
+}
+
+.email-input-wrapper .btn-email {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    width: 64px;
+    height: 50px;
+    background-color: hsl(0, 36%, 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
