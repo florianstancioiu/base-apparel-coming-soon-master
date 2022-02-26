@@ -100,6 +100,26 @@ body {
     background: hsl(0, 80%, 86%);
 }
 
+.email-input-outter.error .error-warning,
+.email-input-outter.error .error-message {
+    display: block;
+}
+
+.email-input-wrapper .error-warning {
+    display: none;
+    position: absolute;
+    right: 115px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.error-message {
+    display: none;
+    margin-left: 25px;
+    color: hsl(0, 36%, 70%);
+    font-weight: 400;
+}
+
 @media screen and (min-width: 1440px) {
     main {
         display: flex;

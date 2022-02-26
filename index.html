@@ -47,21 +47,33 @@
                         with announcements and our launch deals.
                     </p>
 
-                    <div class="email-input-wrapper">
-                        <input
-                            type="email"
-                            placeholder="Email Address"
-                            required
-                        />
-                        <div class="btn-email">
-                            <img
-                                src="./images/icon-arrow.svg"
-                                alt="Icon Arrow"
+                    <div class="email-input-outter">
+                        <div class="email-input-wrapper">
+                            <input
+                                class="email-input"
+                                type="email"
+                                placeholder="Email Address"
+                                required
                             />
+                            <img
+                                src="./images/icon-error.svg"
+                                alt="Icon Error"
+                                class="error-warning"
+                            />
+                            <div class="btn-email">
+                                <img
+                                    src="./images/icon-arrow.svg"
+                                    alt="Icon Arrow"
+                                />
+                            </div>
                         </div>
+                        <p class="error-message">
+                            Please provide a valid email
+                        </p>
                     </div>
                 </div>
             </div>
         </main>
+        <script src="./js/scripts.js"></script>
     </body>
 </html>
